@@ -8,6 +8,18 @@ The plugin depends on the following tools, these must already be installed on yo
 * [FZF][fzf]
 * [AWS CLI v2][AWSCLI]
 
+## Installation
+
+Install through the PowerShell Gallery.
+Full system install, requires administrator rights:
+```sh
+Install-Module -Name AWS-Utils
+```
+Current user only install:
+```sh
+Install-Module -Name AWS-Utils -Scope CurrentUser
+```
+
 ## About
 
 This module contains the following functionality:
